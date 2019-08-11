@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Spyder3
+GenericName=Spyder3
+Comment=Scientific PYthon Development EnviRonment - Python3
+TryExec=/home/anaconda3/bin/spyder
+Exec=/home/anaconda3/bin/spyder %F
+Categories=Development;Science;IDE;Qt;
+Icon=/home/gabo/Pictures/icons/spyder.png
+Terminal=false
+StartupNotify=true
+MimeType=text/x-python;
+

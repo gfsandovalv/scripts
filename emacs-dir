@@ -1,0 +1,5 @@
+#!/bin/bash
+
+dir=$(zenity  --file-selection --title="Choose a directory" --directory)
+zenity --info --title='Selected Directory' --text='You have selcted \n'$dir --timeout=1
+emacs $dir
